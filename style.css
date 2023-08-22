@@ -7,27 +7,44 @@
 }
 body{
     height: 100vh;
-    background: #046db9;
+    background: hsla(141, 54%, 86%, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 30px;
+    background: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823) center / cover no-repeat fixed;
 }
 .container{
-    background-color: #ffffff;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 30px 30px;
     width: 400px;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
-    border-radius: 5px;
+    border-radius: 15px;
     font-family: 'Poppins',sans-serif;
     box-shadow: 25px 25px 30px rgba(0,0,0,0.15);
 }
 .container h1{
-	background: #024b94;
-	color: white;
+    border-radius:10px;
+    padding: 15px;
+box-shadow: 0 0 20px rgba(139, 140, 141, 0.25);
+margin-bottom: 60px;
+	color: rgb(106, 25, 163);
 	text-align: center;
 	font-size: 23px;
 	letter-spacing: 1px;
-	margin-top: -30px;
+    border: none;
+    padding:10px;
+    border-radius:10px 10px 0px 0px;
+	margin-top: -32px;
 	margin-left: -30px;
 	margin-right: -30px;
 	margin-bottom: 40px;
@@ -55,7 +72,7 @@ input[type="range"]::-webkit-slider-thumb{
     appearance: none;
     height: 15px;
     width: 15px;
-    background-color: #1c1c1c;
+    background-color: #ce1dbc;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -71,7 +88,17 @@ input[type="range"]::-webkit-slider-thumb{
     text-align: center;
     letter-spacing: 1px;
 }
+input#weight,input#height{
+    background-color: white;
+}
+ 
 .display{
+    border-radius:10px;
+    padding: 15px;
 box-shadow: 0 0 20px rgba(0,139,253,0.25);
 margin-bottom: 60px;
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
 }
