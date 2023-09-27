@@ -1,6 +1,6 @@
-# BMI-Calculator
+
  
-🌟 Exciting Project Alert: BMI Calculator 🌟
+🌟# BMI Calculator 🌟
  
 
 I am thrilled to share a recent project I've been working on – a BMI (Body Mass Index) Calculator! 📊💪
@@ -27,7 +27,7 @@ In an era where health and wellness are paramount, I wanted to create a tool tha
 
 📣 Spreading Knowledge: Share this tool with your friends and family to help them take charge of their health.
 
-🌐 **Try it Out:** [BMI Calculator](insert_link_here)
+🌐 **Try it Out:** [https://bmi-calculator-swamithedev.vercel.app/]
 
 I'm truly passionate about leveraging technology to promote health and well-being, and this project represents a step in that direction. I invite you all to try out the BMI Calculator, share your feedback, and spread the word to help others lead healthier lives.
 
