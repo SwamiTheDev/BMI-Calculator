@@ -13,7 +13,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   padding: 30px;
-  background: url("/assets/images/background.avif") center / cover no-repeat
+  background: url("/assets/images/background.jpg") center / cover no-repeat
     fixed;
 }
 .container {
